@@ -5,7 +5,7 @@ interface Prop {
     children: any
 }
 
-const Menu: React.FC<Prop> =  ({title, children}) => {
+const FadeMenu: React.FC<Prop> =  ({title, children}) => {
     const { isOpen, onToggle } = useDisclosure()
     return(
         <>
@@ -17,4 +17,4 @@ const Menu: React.FC<Prop> =  ({title, children}) => {
     )
 }
 
-export default Menu
+export default FadeMenu

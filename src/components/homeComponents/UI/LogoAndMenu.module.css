@@ -2,10 +2,6 @@
     .menu {
         display: none;
     }
-    .logo{
-        display: flex;
-        justify-content: center;
-    }
     .container {
         flex-direction: column;
     }

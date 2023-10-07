@@ -15,6 +15,7 @@ function LogoAndMenu () {
                     <Image 
                         src='https://static.wixstatic.com/media/b877e3_757cb6a4f0394b868ab8aeb35fa1e9e3~mv2.jpeg/v1/fill/w_202,h_150,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/WhatsApp%20Image%202022-10-28%20at%2016_20_28.jpeg' 
                         alt='Logo inicial'
+                        boxSize='100%'
                     />
                 </Animation>
             </Box>

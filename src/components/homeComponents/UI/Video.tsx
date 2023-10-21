@@ -1,12 +1,13 @@
-import { Flex } from "@chakra-ui/react"
+import { Player, ControlBar } from 'video-react';
+
+const videoURL = require("../../../assets/taiyokai.mp4");
 
 function Video () {
+  
   return (
-    <Flex>
-      <video width="100%" height="100%" controls>
-        <source src="../../../assets/taiyokai.mp4" />
-      </video>
-    </Flex>
+    <Player autoPlay src={videoURL} muted>
+      <ControlBar autoHide={false} disableDefaultControls={true}></ControlBar>
+    </Player>
   )
 }
 

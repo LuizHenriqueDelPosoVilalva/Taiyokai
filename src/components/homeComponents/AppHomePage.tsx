@@ -1,13 +1,11 @@
-import TopBar from "../commons/TopBar"
 import LogoAndMenu from "./UI/LogoAndMenu"
-import ImageInitial from "./UI/ImageInitial"
+import Video from "./UI/Video"
 
 function AppHomePage () {
     return (
         <>
-            <TopBar />
             <LogoAndMenu />
-            <ImageInitial />
+            <Video />
         </>
     )
 }

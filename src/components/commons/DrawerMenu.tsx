@@ -1,9 +1,8 @@
 import { useRef } from 'react'
-
+import { VscMenu } from "react-icons/vsc";
 import {
     Drawer,
     DrawerBody,
-    DrawerFooter,
     DrawerHeader,
     DrawerOverlay,
     DrawerContent,
@@ -14,17 +13,16 @@ import {
 
 interface Prop {
     children: any
-    title: string
 }
 
- const DrawerMenu: React.FC<Prop> = ({children, title}) => {
+ const DrawerMenu: React.FC<Prop> = ({children}) => {
     const { isOpen, onOpen, onClose } = useDisclosure()
     const btnRef = useRef<HTMLButtonElement>(null)
 
     return (
         <>
-            <Button ref={btnRef} colorScheme='red' onClick={onOpen} w="100%">
-                {title}
+            <Button ref={btnRef}onClick={onOpen} colorScheme="red">
+                <VscMenu />
             </Button>
             <Drawer
                 isOpen={isOpen}

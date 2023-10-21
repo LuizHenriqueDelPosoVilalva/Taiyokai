@@ -1,0 +1,28 @@
+@media (min-width: 820px) {
+    .drawerMenu {
+        display: none;
+    }
+    .logo {
+        width: 10%;
+        height: 10%;
+    }
+    .logo2 {
+        width: 20%;
+        height: 20%;
+    }
+}
+
+@media (max-width: 820px) {
+    .menu {
+        display: none;
+    }
+    .logo {
+        width: 20%;
+        height: 20%;
+    }
+
+    .logo2 {
+        width: 30%;
+        height: 30%;
+    }
+}

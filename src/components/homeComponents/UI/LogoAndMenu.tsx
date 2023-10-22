@@ -22,10 +22,8 @@ function LogoAndMenu () {
                 <DrawerMenu>
                     <Flex flexDirection="column">
                         <Button colorScheme='red' color="black" variant='ghost' m="2%" size='lg'>Inicio</Button>
-                        <Button colorScheme='red' color="black" variant='ghost' m="2%" size='lg'>Galeria</Button>
                         <Button colorScheme='red' color="black" variant='ghost' m="2%" size='lg'>Filosofia</Button>
-                        <Button colorScheme='red' color="black" variant='ghost' m="2%" size='lg'>Contato</Button>
-                        <Button colorScheme='red' color="black" variant='ghost' m="2%" size='lg'>Eventos</Button>
+                        <Button colorScheme='red' color="black" variant='ghost' m="2%" size='lg'>Galeria</Button>
                         <Button colorScheme='red' color="black" variant='ghost' m="2%" size='lg'>Noticias</Button>
                     </Flex>
                 </DrawerMenu>
@@ -35,13 +33,10 @@ function LogoAndMenu () {
                     Inicio
                 </Button>
                 <Button fontSize="1rem" colorScheme='red' color="black" variant='ghost' size='lg'>
-                    Galeria
-                </Button>
-                <Button fontSize="1rem" colorScheme='red' color="black" variant='ghost' size='lg'>
                     Filosofia
                 </Button>
                 <Button fontSize="1rem" colorScheme='red' color="black" variant='ghost' size='lg'>
-                    Contato
+                    Galeria
                 </Button>
                 <Button fontSize="1rem" colorScheme='red' color="black" variant='ghost' size='lg'>
                     Noticias
